@@ -1,0 +1,17 @@
+This is a Selenium project on url https://www.charmingcharlie.com/
+
+Below are the actions performed on the above URL in this project.
+
+Initialized the selenium webdriver and opened the URL https://www.charmingcharlie.com/.
+"Implicit wait()":
+  It is used to set the threshold time for finding any element. It should be used only once in the code. It will be the default threshold   time to wait to find the element.
+"Explicit wait()":
+  It is the wait time which will be used for a particular element which may take long time than implicit wait time.
+  In this we can choose the condition, with waiting time. like "element to be clickable()" before the time expires.
+"Mouse over" :
+  operation to find one of the category and to click on the subcategory.
+  Mouseover can be done by using "Actions" class defined in Selenium.
+  Pass the webelement on which it needs to be performed.
+"DropDown":
+   Drop down operations can be performed using selenium. Selenium have the "Select" classes, "Select" methods will help us to choose the elements         from a dropdownlist.
+
